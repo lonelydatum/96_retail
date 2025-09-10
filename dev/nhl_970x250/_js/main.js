@@ -8,7 +8,7 @@ function startHor(vh={x:-size.w}){
 	const tl = init()
 		 
 	tl.from('.t1', stag(vh), "+=.2");	
-	tl.to([".t1", ".bars", ".logo_small"], {duration:.3, opacity:0}, `+=${READ.t1}`)
+	tl.to([".t1", ".bars", ".logo_small"], {duration:.3, opacity:0}, `+=2.5`)
 	
 
 	tl.add("f2")

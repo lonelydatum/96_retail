@@ -91,7 +91,7 @@ function startHor() {
 	tl.from('.t2', stag(vh));
 	var listter = [".frame1"];
 
-	tl.to(listter, { duration: .3, opacity: 0 }, "+=" + READ.t2);
+	tl.to(listter, { duration: .3, opacity: 0 }, "+=1.5");
 
 	tl.to(".frame2", { duration: .3, opacity: 1 }, "t2");
 	tl.from('.t3', stag(vh));
@@ -143,7 +143,7 @@ function startHor() {
 	var tl = (0, _commonJsCommonJs.init)();
 
 	tl.from('.t1', (0, _commonJsCommonJs.stag)(vh), "+=.2");
-	tl.to([".t1", ".bars", ".logo_small"], { duration: .3, opacity: 0 }, '+=' + _commonJsCommonJs.READ.t1);
+	tl.to([".t1", ".bars", ".logo_small"], { duration: .3, opacity: 0 }, '+=2.5');
 
 	tl.add("f2");
 	tl.from(['.t2'], (0, _commonJsCommonJs.stag)(vh), "f2");

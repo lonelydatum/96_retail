@@ -91,7 +91,7 @@ function startHor() {
 	tl.from('.t2', stag(vh));
 	var listter = [".frame1"];
 
-	tl.to(listter, { duration: .3, opacity: 0 }, "+=" + READ.t2);
+	tl.to(listter, { duration: .3, opacity: 0 }, "+=1.5");
 
 	tl.to(".frame2", { duration: .3, opacity: 1 }, "t2");
 	tl.from('.t3', stag(vh));
