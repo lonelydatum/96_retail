@@ -63,10 +63,6 @@ function start(_ref) {
 
 	var tl = init();
 
-	TweenLite.to(".hero img", { scale: .8, duration: 3 });
-
-	// return
-
 	tl.from('.t1', stag(vh), "+=.2");
 	tl.to(".t1", { duration: .3, opacity: 0 }, "+=" + READ.t1);
 
@@ -159,7 +155,7 @@ function startHor() {
 	tl.to([".t2", ".olg"], { duration: .3, opacity: 0 }, "+=2");
 	tl.from('.t3', (0, _commonJsCommonJs.stag)(vh));
 
-	tl.from([".cta", '.logo', ".legalBtn", ".playsmart"], { duration: .3, opacity: 0 });
+	tl.from([".cta", '.logo', ".legalBtn"], { duration: .3, opacity: 0 });
 
 	tl.add((0, _commonJsCommonJs.olg)());
 }

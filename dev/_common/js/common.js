@@ -52,9 +52,8 @@ function start({wh, xy, vh={x:-size.w}}){
 	
 	
 	 
-	TweenLite.to(".hero img", {scale:.8, duration:3})
 	
-	// return
+	 
 	
 	tl.from('.t1', stag(vh), "+=.2");	
 	tl.to(".t1", {duration:.3, opacity:0}, `+=${READ.t1}`)

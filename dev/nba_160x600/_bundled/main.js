@@ -63,10 +63,6 @@ function start(_ref) {
 
 	var tl = init();
 
-	TweenLite.to(".hero img", { scale: .8, duration: 3 });
-
-	// return
-
 	tl.from('.t1', stag(vh), "+=.2");
 	tl.to(".t1", { duration: .3, opacity: 0 }, "+=" + READ.t1);
 
@@ -137,7 +133,7 @@ function olg() {
 exports.olg = olg;
 
 },{}],3:[function(require,module,exports){
-'use strict';
+"use strict";
 
 var _commonJsCommonJs = require('../../_common/js/common.js');
 
@@ -145,6 +141,8 @@ var w = 143;
 var h = 217;
 var x = 9;
 var y = 199;
+
+TweenLite.to(".hero img", { scale: .8, x: -106, y: -108, duration: 3, ease: "power4.out" });
 
 (0, _commonJsCommonJs.start)({ wh: { w: w, h: h }, xy: { x: x, y: y } });
 

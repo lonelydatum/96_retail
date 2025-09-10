@@ -6,5 +6,6 @@ const x = 22/2
 const y = 292/2
  
 start({wh:{w, h}, xy:{x, y}})
-
+TweenLite.to(".hero img", {scale:.8,x:-188, y:-107, duration:3, ease:"power4.out"})
 module.exports = {};
+
