@@ -1,0 +1,29 @@
+
+#banner{
+ width: 970px;
+ height: 250px; 
+}
+
+
+#olg{
+	// border: 1px solid red;
+	width: 167px;
+	height: 81px;
+	@include pos(-2, 171);
+	// opacity: .5 !important;
+}
+
+
+#legalBtn{	
+	@include pos(888, 0);	
+	width: 140px;
+	height: 50px;
+	// opacity: 1 !important;
+}
+
+
+ 
+
+.logos{
+	z-index: 1;
+}
