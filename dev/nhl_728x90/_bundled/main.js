@@ -25,7 +25,7 @@ var READ_NBA = {
 };
 
 var READ_NHL = {
-	t1: 2,
+	t1: 1.5,
 	t2: 2
 };
 
